@@ -92,3 +92,4 @@ def play_hangman():
     print("You have 6 tries to save the hangman!")
     print()
 
+    while True:
