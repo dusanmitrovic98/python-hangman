@@ -5,3 +5,4 @@ def get_random_word():
                  "lemon", "mango", "nectarine", "orange", "papaya", "quince", "raspberry", "strawberry", "tangerine",
                  "watermelon"]
     return random.choice(word_list)
+
