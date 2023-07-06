@@ -6,3 +6,4 @@ def get_random_word():
                  "watermelon"]
     return random.choice(word_list)
 
+def display_hangman(tries):
