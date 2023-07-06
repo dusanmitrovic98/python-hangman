@@ -70,3 +70,4 @@ def display_hangman(tries):
                 # Initial empty state
                 '''
                    --------
+                   |      |
