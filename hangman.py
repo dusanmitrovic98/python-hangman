@@ -90,3 +90,4 @@ def play_hangman():
     print("Welcome to Hangman!")
     print("Guess the word by guessing one letter at a time.")
     print("You have 6 tries to save the hangman!")
+    print()
