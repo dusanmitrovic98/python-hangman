@@ -8,3 +8,4 @@ def get_random_word():
 
 def display_hangman(tries):
     stages = [  # Final state: Head, torso, both arms, and both legs
+                '''
