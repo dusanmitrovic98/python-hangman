@@ -82,3 +82,4 @@ def display_hangman(tries):
 
 def play_hangman():
     word = get_random_word().upper()
+    word_letters = set(word)
