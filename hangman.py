@@ -85,3 +85,4 @@ def play_hangman():
     word_letters = set(word)
     guessed_letters = set()
     incorrect_letters = set()
+    tries = 6
