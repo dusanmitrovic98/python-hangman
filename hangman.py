@@ -47,3 +47,4 @@ def display_hangman(tries):
                    |     
                    -
                 ''',
+                # Head and torso
