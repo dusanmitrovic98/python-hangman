@@ -95,3 +95,43 @@ def play_hangman():
     while True:
         # Display the hangman and guessed letters
         print(display_hangman(tries))
+        print("Guessed letters:", ' '.join(sorted(guessed_letters)))
+        print()
+
+        # Display the current word progress
+        word_progress = ''.join(letter if letter in guessed_letters else '_' for letter in word)
+        print("Word:", word_progress)
+        print()
+
+        # Get user input
+        guess = input("Enter a letter: ").upper()
+
+        if guess in guessed_letters:
+            print("You've already guessed that letter. Try again!")
+            continue
+
+        if guess.isalpha() and len(guess) == 1:
+            guessed_letters.add(guess)
+
+            if guess in word_letters:
+                print("Good guess!")
+                if set(word_progress) == word_letters:
+                    print("Congratulations! You've guessed the word:", word)
+                    break
+            else:
+                print("Oops! That letter is not in the word.")
+                incorrect_letters.add(guess)
+                tries -= 1
+
+                if tries == 0:
+                    print(display_hangman(tries))
+                    print("Sorry, you've run out of tries!")
+                    print("The word was:", word)
+                    break
+        else:
+            print("Invalid input. Please enter a single letter.")
+
+        print()
+
+play_hangman()
+                
