@@ -59,3 +59,4 @@ def display_hangman(tries):
                 ''',
                 # Head
                 '''
+                   --------
