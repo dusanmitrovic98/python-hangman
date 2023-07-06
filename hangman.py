@@ -87,3 +87,4 @@ def play_hangman():
     incorrect_letters = set()
     tries = 6
 
+    print("Welcome to Hangman!")
