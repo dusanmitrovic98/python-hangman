@@ -88,3 +88,4 @@ def play_hangman():
     tries = 6
 
     print("Welcome to Hangman!")
+    print("Guess the word by guessing one letter at a time.")
