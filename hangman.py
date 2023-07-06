@@ -80,3 +80,4 @@ def display_hangman(tries):
     ]
     return stages[tries]
 
+def play_hangman():
