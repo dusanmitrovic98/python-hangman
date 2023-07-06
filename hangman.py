@@ -28,3 +28,4 @@ def display_hangman(tries):
                    -
                 ''',
                 # Head, torso, both arms
+                '''
