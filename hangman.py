@@ -93,3 +93,4 @@ def play_hangman():
     print()
 
     while True:
+        # Display the hangman and guessed letters
