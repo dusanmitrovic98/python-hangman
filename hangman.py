@@ -64,3 +64,4 @@ def display_hangman(tries):
                    |      O
                    |    
                    |      
+                   |     
