@@ -84,3 +84,4 @@ def play_hangman():
     word = get_random_word().upper()
     word_letters = set(word)
     guessed_letters = set()
+    incorrect_letters = set()
